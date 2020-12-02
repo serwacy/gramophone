@@ -1,0 +1,4 @@
+type Mutation {
+    createUser(email: String!, password: String!) : User
+    deleteUser(email: String!) : User
+}
